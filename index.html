@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="mejoras.css">
 </head>
 <body class="locked">
   <main>
@@ -30,7 +31,7 @@
 
     <div id="surprise" class="surprise" aria-hidden="true">
       <section class="hero-photo reveal">
-        <img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/01-1000595448.jpg" alt="Carlos Daniel y Rosse Mariel compartiendo un momento juntos">
+        <img src="fotos/01-1000595448.jpg" alt="Carlos Daniel y Rosse Mariel compartiendo un momento juntos">
         <div class="hero-overlay"><span>Para vos</span><h2>Mis flores amarillas 💛</h2></div>
       </section>
 
@@ -44,20 +45,51 @@
         <div class="signature">Con amor,<br><strong>Carlos Daniel 💛</strong></div>
       </section>
 
+      <section class="featured reveal" aria-labelledby="destacados-title">
+        <div class="section-heading">
+          <span>NUEVOS RECUERDOS</span>
+          <h2 id="destacados-title">Más momentos juntos</h2>
+          <p>Deslizá para ver cada fotografía.</p>
+        </div>
+        <div class="carousel" id="carousel">
+          <button class="carousel-button prev" type="button" aria-label="Foto anterior">‹</button>
+          <div class="carousel-track">
+            <figure class="carousel-slide active"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/01.jpg" alt="Retrato de Rosse Mariel" loading="lazy"><figcaption>Una persona muy especial 💛</figcaption></figure>
+            <figure class="carousel-slide"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/02.jpg" alt="Carlos Daniel y Rosse Mariel juntos" loading="lazy"><figcaption>Otro momento para recordar</figcaption></figure>
+            <figure class="carousel-slide"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/03.jpg" alt="Carlos Daniel y Rosse Mariel compartiendo un momento" loading="lazy"><figcaption>Recuerdos que hacen sonreír</figcaption></figure>
+            <figure class="carousel-slide"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/04.jpg" alt="Una fotografía especial de la pareja" loading="lazy"><figcaption>Siempre sumando momentos</figcaption></figure>
+            <figure class="carousel-slide"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/05.jpg" alt="Retrato de Rosse Mariel al aire libre" loading="lazy"><figcaption>Una foto llena de luz</figcaption></figure>
+            <figure class="carousel-slide"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/06.jpg" alt="Carlos Daniel y Rosse Mariel en un paseo" loading="lazy"><figcaption>Nuestras aventuras</figcaption></figure>
+            <figure class="carousel-slide"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/07.jpg" alt="Carlos Daniel y Rosse Mariel en otro paseo" loading="lazy"><figcaption>Más recuerdos para guardar</figcaption></figure>
+          </div>
+          <button class="carousel-button next" type="button" aria-label="Foto siguiente">›</button>
+        </div>
+        <div class="carousel-dots" aria-label="Elegir fotografía"></div>
+      </section>
+
       <section class="moments">
         <div class="section-heading reveal"><span>UN POQUITO DE NOSOTROS</span><h2>Nuestros momentos</h2><p>Recuerdos que siempre quiero guardar.</p></div>
         <div class="gallery">
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/02-1000595436.jpg" alt="Un lindo recuerdo juntos" loading="lazy"><figcaption>Tu sonrisa alegra mis días ✨</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/03-1000595429.jpg" alt="Un momento especial juntos" loading="lazy"><figcaption>Momentos que valen oro 💛</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/04-1000595425.jpg" alt="Carlos y Rosse juntos" loading="lazy"><figcaption>Siempre es lindo compartir con vos</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/05-1000559209.jpg" alt="Otro recuerdo de la pareja" loading="lazy"><figcaption>Mi lugar favorito es a tu lado 🌻</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/06-1000540297.jpg" alt="Recuerdo juntos" loading="lazy"><figcaption>Una foto, mil recuerdos</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/07-1000544170.jpg" alt="Momento compartido" loading="lazy"><figcaption>Gracias por tantos momentos lindos</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/08-1000420981.jpg" alt="Una foto especial juntos" loading="lazy"><figcaption>Vos hacés todo más bonito</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/09-1000361384.jpg" alt="Carlos Daniel y Rosse" loading="lazy"><figcaption>Más aventuras juntos ✨</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/10-1000269114.jpg" alt="Recuerdo de Carlos y Rosse" loading="lazy"><figcaption>Qué lindo coincidir con vos</figcaption></figure>
-          <figure class="polaroid reveal"><img src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/fotos/11-1000244660.jpg" alt="Último recuerdo de la galería" loading="lazy"><figcaption>Uno de mis recuerdos favoritos 💛</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/02-1000595436.jpg" alt="Un lindo recuerdo juntos" loading="lazy"><figcaption>Tu sonrisa alegra mis días ✨</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/03-1000595429.jpg" alt="Un momento especial juntos" loading="lazy"><figcaption>Momentos que valen oro 💛</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/04-1000595425.jpg" alt="Carlos y Rosse juntos" loading="lazy"><figcaption>Siempre es lindo compartir con vos</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/05-1000559209.jpg" alt="Otro recuerdo de la pareja" loading="lazy"><figcaption>Mi lugar favorito es a tu lado 🌻</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/06-1000540297.jpg" alt="Recuerdo juntos" loading="lazy"><figcaption>Una foto, mil recuerdos</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/07-1000544170.jpg" alt="Momento compartido" loading="lazy"><figcaption>Gracias por tantos momentos lindos</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/08-1000420981.jpg" alt="Una foto especial juntos" loading="lazy"><figcaption>Vos hacés todo más bonito</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/09-1000361384.jpg" alt="Carlos Daniel y Rosse" loading="lazy"><figcaption>Más aventuras juntos ✨</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/10-1000269114.jpg" alt="Recuerdo de Carlos y Rosse" loading="lazy"><figcaption>Qué lindo coincidir con vos</figcaption></figure>
+          <figure class="polaroid reveal"><img src="fotos/11-1000244660.jpg" alt="Último recuerdo de la galería" loading="lazy"><figcaption>Uno de mis recuerdos favoritos 💛</figcaption></figure>
         </div>
+      </section>
+
+      <section class="video-memory reveal">
+        <div class="section-heading"><span>UN MOMENTO EN MOVIMIENTO</span><h2>Nuestro recuerdo</h2></div>
+        <video controls playsinline preload="metadata" poster="nuevas/02.jpg">
+          <source src="https://para-rosse-mariel.carlosdanielruizdeol.chatgpt.site/nuevas/recuerdo.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este video.
+        </video>
+        <a class="music-link" href="https://open.spotify.com/search/Floricienta%20Flores%20Amarillas" target="_blank" rel="noopener noreferrer">🎵 Escuchar “Flores Amarillas”</a>
       </section>
 
       <section class="final reveal">
@@ -73,5 +105,6 @@
   </main>
   <div id="petals" aria-hidden="true"></div>
   <script src="script.js"></script>
+  <script src="mejoras.js"></script>
 </body>
 </html>
