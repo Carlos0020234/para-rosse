@@ -1,0 +1,17 @@
+.featured{padding:74px 18px 85px;background:linear-gradient(180deg,#fffaf0,#fff0ad)}
+.carousel{position:relative;max-width:520px;margin:auto}
+.carousel-track{position:relative;min-height:610px}
+.carousel-slide{display:none;margin:0;background:#fff;padding:10px 10px 24px;border-radius:22px;box-shadow:0 20px 50px rgba(94,61,3,.22);animation:fade .45s ease}
+.carousel-slide.active{display:block}
+.carousel-slide img{display:block;width:100%;height:540px;object-fit:cover;border-radius:15px}
+.carousel-slide figcaption{text-align:center;font-family:"Playfair Display",serif;font-size:1.1rem;margin-top:16px}
+.carousel-button{position:absolute;z-index:3;top:45%;width:46px;height:46px;border:0;border-radius:50%;background:rgba(255,255,255,.94);color:#6b470d;font-size:2rem;box-shadow:0 8px 22px #4a320d33;cursor:pointer}
+.carousel-button.prev{left:-10px}.carousel-button.next{right:-10px}
+.carousel-dots{display:flex;justify-content:center;gap:8px;margin-top:20px}
+.carousel-dot{width:9px;height:9px;border:0;border-radius:50%;background:#d5b85f;padding:0;transition:.25s}
+.carousel-dot.active{width:26px;border-radius:9px;background:#8c650e}
+.video-memory{padding:75px 20px;text-align:center;background:#fffaf0}
+.video-memory video{display:block;width:min(100%,520px);max-height:75svh;margin:0 auto 28px;border-radius:24px;background:#251d0d;box-shadow:0 18px 50px #61451433}
+.music-link{display:inline-block;padding:15px 22px;border-radius:999px;background:#f4c120;color:#513500;text-decoration:none;font-weight:700;box-shadow:0 10px 24px #d99a1833}
+@media(max-width:520px){.carousel-track{min-height:535px}.carousel-slide img{height:465px}}
+@media(prefers-reduced-motion:reduce){.carousel-slide{animation:none}}
